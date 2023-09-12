@@ -6,10 +6,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['NetflixSans']
+        'sans': ['CustomFont']
       },
       colors: {
-        'netflix-gray': '#141414'
+        'custom-gray': '#141414'
       }
     },
   },

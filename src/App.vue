@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed w-full z-40 top-0 text-white font-light tracking-wide transition-all duration-500" :class="{'bg-netflix-gray': (scrollPosition > 30)}">
+  <nav class="fixed w-full z-40 top-0 text-white font-light tracking-wide transition-all duration-500" :class="{'bg-custom-gray': (scrollPosition > 30)}">
     <div class="bg-navbar">
       <div class="px-5 xl:px-14 flex justify-between mx-auto p-5">
         <div class="hidden lg:flex items-center space-x-5 text-sm">
@@ -59,7 +59,7 @@
 
   <router-view/>
 
-  <footer class="bg-netflix-gray pt-24 pb-5">
+  <footer class="bg-custom-gray pt-24 pb-5">
     <div class="max-w-4xl mx-auto">
       <div class="flex items-center">
         <button class="p-3">

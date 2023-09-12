@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-gradient-to-t from-netflix-gray to-transparent from-0% to-30% relative bg-cover">
+  <div class="bg-gradient-to-t from-custom-gray to-transparent from-0% to-30% relative bg-cover">
     <div class="hidden xl:block absolute aspect-video w-full z-10">
       <video ref="heroVideo" class="w-full min-h-screen aspect-video object-cover object-center" :poster="require(`@/assets/${title}bg.webp`)" @ended="onVideoEnd" muted>
         <source :src="require(`@/assets/${title}.mp4`)" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <div class="absolute bottom-0 h-full w-full bg-gradient-to-t from-netflix-gray to-transparent from-0% to-30%"></div>
+      <div class="absolute bottom-0 h-full w-full bg-gradient-to-t from-custom-gray to-transparent from-0% to-30%"></div>
     </div>
     <div class="hidden xl:flex relative justify-between items-end px-14 pt-20 pb-48 w-full aspect-[19/9] min-h-screen z-30">
       <div class="max-w-[40%]">
